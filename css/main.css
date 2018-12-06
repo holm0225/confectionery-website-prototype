@@ -119,3 +119,20 @@ p {
   width: 100%;
   display: block;
 }
+
+footer {
+  display: flex;
+}
+
+small {
+  text-align: left;
+}
+
+.links {
+  width: 40px;
+}
+
+.small-link {
+  display: block;
+  width: 100%;
+}

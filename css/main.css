@@ -97,11 +97,25 @@ p {
   text-align: center;
 }
 
-section {
+.middle {
   display: flex;
 }
 
 .circle {
+  width: 100%;
+  display: block;
+}
+
+.melt {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.bottom {
+  display: flex;
+}
+
+.four-three {
   width: 100%;
   display: block;
 }

@@ -21,24 +21,29 @@ body {
   margin: 0;
 }
 
-.design{
-  max-width: 75px;
+header {
   width: 100%;
+}
+
+.design {
+  max-width: 19%;
   margin: 0;
 }
 
 h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 div {
   display: flex;
-  align-content: space-around;
-  justify-content: space-between;
   align-items: center;
   font-weight: bold;
+}
+
+.logo {
+  justify-content: space-between;
 }
 
 nav {
@@ -107,13 +112,8 @@ p {
   text-align: center;
 }
 
-.middle {
-  display: flex;
-}
-
 .circle {
   width: 100%;
-  display: block;
 }
 
 .team {
@@ -125,13 +125,9 @@ p {
   display: flex;
 }
 
-.four-three {
-  width: 100%;
-  display: block;
-}
-
 footer {
   display: flex;
+  margin: 1em;
 }
 
 small {
@@ -148,6 +144,13 @@ small {
   width: 100%;
 }
 
+.middle {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 @media only screen and (min-width: 25em) {
 
 }
@@ -159,6 +162,22 @@ small {
     line-height: 1.4;
   }
 
+  .design {
+    max-width: 75px;
+  }
+
+  .footer-flex {
+    width: 100%;
+    display: block;
+  }
+
+  .bottom {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -168,12 +187,43 @@ small {
     line-height: 1.5;
   }
 
+  .circle {
+    display: inline-block;
+    position: relative;
+    width: 49%;
+  }
+
+  .swedish {
+    text-align: center;
+  }
+
+  .banner {
+    overflow: hidden;
+    max-height: 400px;
+  }
+
+  figure {
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 280px;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  .circle {
+    width: 25%;
   }
 
 }
